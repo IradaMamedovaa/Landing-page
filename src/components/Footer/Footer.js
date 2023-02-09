@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div>
           <h4>Community</h4>
-          <a href="#"> Airbnb.org: disaster relief housing</a>
+          <a href="#"> Disaster relief housing</a>
           <a href="#"> Combating discrimination</a>
         </div>
         <div>

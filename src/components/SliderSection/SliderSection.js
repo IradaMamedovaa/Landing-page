@@ -23,7 +23,7 @@ const SliderSection = () => {
 
   return (
     <div className="sliderSection">
-      <div className="about">
+      <div className="aboutSlider">
         <h1>
           Your next chapter,
           <br /> made possible by

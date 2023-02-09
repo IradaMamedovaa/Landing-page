@@ -1,11 +1,14 @@
 @import "../../assets/style/mixins.scss";
 
 footer{
-    margin-top:20px;
+    margin-top:80px;
+    background-color: rgba(154, 154, 154, 0.153);
+    padding-top: 80px;
     .links{
         display: flex;
         width: 100%;
         justify-content: space-around;
+        margin-bottom: 40px;
     }
     a{
         display: block;
@@ -14,7 +17,8 @@ footer{
         padding: 10px 0;
     }
     .copyrights{
-        margin: 40px ;
+        margin: 0 40px ;
+        padding: 40px 0;
         border-top: 1px solid rgb(63, 63, 63);
         color: rgb(63, 63, 63);
         display: flex;
