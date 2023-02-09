@@ -1,0 +1,45 @@
+@import '../../assets/style/mixins.scss';
+
+header{
+    background-image: url(../../assets/images/mounts.jpg);
+    height: 500px;
+    width: 100vw;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    color: white;
+    h1{
+        font-size: 70px;
+        padding: 0 20px;
+        margin: 0;
+    }
+    .headerText{
+        padding-left: 100px;
+    }
+    h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    h2{
+        margin-top: 0;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@include md{
+    header{
+        .headerText{
+            padding: 0 40px !important;
+        }
+        h2{
+            font-size: 40px;
+            margin: 0 auto;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
